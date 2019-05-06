@@ -1,0 +1,41 @@
+MODEL/DB FIELDS
+
+### LISTINGD
+id: INT
+realtor: INT (FOREIGN KEY [realtor])
+title : STR
+description: TEXT
+price: INT
+is_published:BOOL [true]
+list_date: DATE
+photo_main: STR
+photo_1: STR
+photo_2: STR
+photo_3: STR
+photo_4: STR
+photo_5: STR
+photo_6: STR
+
+### REALTOR
+id: INT
+name: STR
+photo: STR
+description: TEXT
+email: STR
+phone: STR
+is_mvt: BOOL [0]
+hire_date: DATE
+
+### CONTACT
+is: INT
+user_id: INT
+listing: INT
+listind_id: INT
+name: STR
+email: STR
+phone: STR
+massage: TEXT
+contact_date: DATE
+
+
+
