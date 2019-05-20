@@ -82,9 +82,9 @@ WSGI_APPLICATION = 'webcenter4u.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'webcenterdb',
+        'NAME': 'yourdbname_here',
         'USER': 'postgres',
-        'PASSWORD': 'userpass',
+        'PASSWORD': 'userpass_here',
         'HOST' : 'localhost',
     }
 }
